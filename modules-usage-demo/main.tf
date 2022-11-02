@@ -1,5 +1,5 @@
 module "bsquarezone-vnet" {
-  source = "github.com/lbharathl/tf-module-azure-vnet.git"
+  source = "git::https://github.com/lbharathl/tf-module-azure-vnet.git"
   resourcegroup_details = {
     name = "ntier-rsg"
     location = "westus"
